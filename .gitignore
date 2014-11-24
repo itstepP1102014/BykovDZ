@@ -1,0 +1,10 @@
+
+*.exe
+*.obi
+*.[oa]
+bin/
+obi/
+*.save
+*.depend
+*layout*
+
