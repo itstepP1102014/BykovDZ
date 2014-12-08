@@ -1,9 +1,9 @@
 
 *.exe
-*.obi
+*.obj
 *.[oa]
 bin/
-obi/
+obj/
 *.save
 *.depend
 *layout*
