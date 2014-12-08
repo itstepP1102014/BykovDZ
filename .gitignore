@@ -6,5 +6,5 @@ bin/
 obj/
 *.save
 *.depend
-*layout*
+*.layout*
 
