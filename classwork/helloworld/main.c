@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("mama myla ramu!\n");
+    printf("Hello world!\n");
 
     printf("it is my first programm\n");
     return 0;
