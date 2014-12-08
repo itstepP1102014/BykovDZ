@@ -3,13 +3,13 @@
 
 int main()
 {
-    printf("And The Moon And The Stars And The World"
-"by Charles Bukowski"
-"Long walks at night--"
-"that’s what good for the soul:"
-"peeking into windows"
-"watching tired housewives"
-"trying to fight off"
+    printf("And The Moon And The Stars And The World\n"
+"by Charles Bukowski\n"
+"Long walks at night--\n"
+"that’s what good for the soul:\n"
+"peeking into windows\n"
+"watching tired housewives\n"
+"trying to fight off\n"
 "their beer-maddened husbands.\n");
     return 0;
 }
