@@ -5,13 +5,13 @@
 int main()
 {
     setlocale(LC_ALL,"Russian");
-    int a = Мама;
-    int b = Мыла;
-    int c = Раму;
-    printf(" %c %c %c\n", a, b, c);
-    printf(" %c %c %c\n", c, a, b);
-    printf(" %c %c %c\n", b, c, a);
-    printf(" %c %c %c\n", c, b, a);
+    char a[] = "Мама";
+    char a[] = "Мыла";
+    char a[] = "Раму";
+    printf(" %s %s %s\n", a, b, c);
+    printf(" %s %s %s\n", c, a, b);
+    printf(" %s %s %s\n", b, c, a);
+    printf(" %s %s %s\n", c, b, a);
     return 0;
 }
 
