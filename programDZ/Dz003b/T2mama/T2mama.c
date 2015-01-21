@@ -6,8 +6,8 @@ int main()
 {
     setlocale(LC_ALL,"Russian");
     char a[] = "Мама";
-    char a[] = "Мыла";
-    char a[] = "Раму";
+    char b[] = "Мыла";
+    char c[] = "Раму";
     printf(" %s %s %s\n", a, b, c);
     printf(" %s %s %s\n", c, a, b);
     printf(" %s %s %s\n", b, c, a);
