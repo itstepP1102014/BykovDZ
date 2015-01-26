@@ -34,7 +34,7 @@ int main()
 {
     for(int i = 1, x = 1; i <= 17; ++i, x = x + 2)
     {
-        printf("%d: %d --- %d\n", i, x, x*x*x);
+        printf("%d --- %d\n", x, x*x*x);
     }
     return 0;
 }
