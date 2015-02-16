@@ -1,18 +1,22 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int s;
+    int g=1;
+    int p;
     int n;
-    printf("Ведите число: ");
-    scanf(" %d\n", &n);
-    printf("Ведите число: ");
-    scanf(" %d\n", &s);
-    for(int a,k; a=s; k=n*a ++i)
-        if(n<=???)
+    printf("Ведите Числа: ");
+    scanf("%d", &n);
+    for(int i=1; i<=n; ++i)
     {
-        printf("$d*$d=%d\n", n*s=k);
+        printf("Водите числа: ");
+        scanf("%d", &p);
+        g=g*p;
+        printf("%d*%d=%d\n", n, p, g);
+
     }
+
     return 0;
 }
