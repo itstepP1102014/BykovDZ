@@ -1,0 +1,13 @@
+extern void object::Spider3()
+{
+	while(true)
+	{
+		object zuzu;
+		zuzu = radar(AlienSpider);
+		turn(direction(zuzu.position));
+		move(distance(position,zuzu.position)-40);
+		fire(1);
+	}
+	
+	
+}
