@@ -1,0 +1,9 @@
+ 
+object item;
+item = radar(TitaniumOre);
+goto(item.posion);
+qrab();
+item = radar(Converter);
+goto(item.position);
+qrob();
+move(-5);
