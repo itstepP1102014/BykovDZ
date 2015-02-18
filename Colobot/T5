@@ -1,0 +1,8 @@
+ 
+object item;
+item = radar(PowerCell);
+goto(item.position);
+qrop();
+item = radar(WingedShooter);
+goto(item.position);
+drop();
