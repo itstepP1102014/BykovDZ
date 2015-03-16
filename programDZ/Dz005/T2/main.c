@@ -5,23 +5,22 @@ int main()
 {
     int x;
     int p;
-    int a;
+    int e=1;
+    int a=1;
     printf("x: ");
     scanf("%d", &x);
     printf("p: ");
     scanf("%d", &p);
 
-    while(a>=p)
+    while(a<=p)
     {
+
+        e*=x;
         a+=1;
-        x*=x;
-
-        printf("a=%d\n", a);
     }
-    printf("x=%d\n", x);
-    printf("p=%d\n", p);
 
-
+    printf("%d^%d=%d\n",x,p, e);
 
     return 0;
 }
+
